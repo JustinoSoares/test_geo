@@ -71,7 +71,7 @@
                         var hospNome = element.tags?.name || "Hospital Desconhecido";
 
                         if (hospLat && hospLon) {
-                            L.marker([hospLat, hospLon], { icon: L.icon({ iconUrl: 'https://cdn-icons-png.flaticon.com/512/3177/3177440.png', iconSize: [30, 30] }) })
+                            L.marker([hospLat, hospLon], { icon: L.icon({ iconUrl: 'https://res.cloudinary.com/dzpallmns/image/upload/v1743034805/yexavz2m4ei2k2xvkpvd.png', iconSize: [30, 30] }) })
                                 .addTo(map)
                                 .bindPopup(`<b>${hospNome}</b><br>Latitude: ${hospLat}<br>Longitude: ${hospLon}`);
                         }
